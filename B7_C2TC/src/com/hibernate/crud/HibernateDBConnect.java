@@ -2,6 +2,7 @@ package com.hibernate.crud;
 
 import java.util.Properties;
 
+
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
