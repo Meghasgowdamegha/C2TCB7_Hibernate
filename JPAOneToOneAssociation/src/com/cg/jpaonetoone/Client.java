@@ -14,13 +14,13 @@ public class Client {
 		entityManager.getTransaction().begin();
 		
 		Student student=new Student();
-		student.setName("Yunus");
+		student.setName("sanvi");
 		
 		Address permanetAddress=new Address();
-		permanetAddress.setStreet("7th cross, 5th ward");
-		permanetAddress.setCity("Gangavathi");
+		permanetAddress.setStreet("5th cross");
+		permanetAddress.setCity("Tumkur");
 		permanetAddress.setState("Karnataka");
-		permanetAddress.setZipCode("583227");
+		permanetAddress.setZipCode("572102");
 		
 		student.setAddress(permanetAddress);
 		entityManager.persist(student);
